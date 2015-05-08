@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+rewrite ^s(.*)-([0-9]+).html$ /?q=$1&p=$2 [L]
+rewrite ^s(.*).html$ /?q=$1 [L]
+rewrite ^c(.*).html$ /?c=$1 [L]
+rewrite ^sitemap.txt$ /sitemap.php?type=txt [L]
+rewrite ^sitemap.xml$ /sitemap.php?type=xml [L]
+</IfModule>

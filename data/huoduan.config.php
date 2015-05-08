@@ -1,0 +1,25 @@
+<?php
+ $huoduan =  array (
+  'sitename' => '网络热词',
+  'title' => '网络热词- 分享最新网络热词',
+  'keywords' => '热门搜索,最近热搜词网络热词',
+  'description' => '网络热词- 分享最新网络热词',
+  'path' => '/',
+  'searchtype' => '1',
+  'searchsite' => 'dl.vmall.com',
+  'rewrite' => '1',
+  'xg_open' => '1',
+  'listnum' => '0',
+  'iframe_open' => '0',
+  'topbar_open' => '0',
+  'cachetime' => '0',
+  'sort' => '1,3,5,2,4,7,6,9,10,8',
+  'hotkeytype' => '1',
+  'hotcachetime' => '3600',
+  'joinhotkey' => '1',
+  'foot' => 'Copyright &copy; <a href="http://www.xxx.com/"><span style="color:#FF0">xxx</span><span style="color:#0F0">.com</span></a> <a href="#" target="_blank">京ICP备08010314号</a>',
+  'admin_name' => 'huoduan',
+  'admin_pass' => 'a13a02276910cbc879f020ed88816512',
+  'ip' => '',
+);
+?>

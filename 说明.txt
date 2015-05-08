@@ -1,0 +1,9 @@
+inc/home.php 是首页文件
+inc/list.php 是导航分类文件
+inc/search.php 是搜索结果页面
+
+/sitemap.xml  是网站地图文件，不用生成，已经做好伪静态
+
+data/huoduan.cat.php  是导航数据文件，如果想添加更多的百度排行榜，可以打开文件看里面的例子添加
+
+后台 admin/  账号密码都是huoduan
